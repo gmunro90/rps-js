@@ -8,7 +8,7 @@ let userChoice;
 //with each click, the function takes an 'event' which is the click, this function takes the id (saved in a global variable as userChoice)
 //then we get the userChoiceDisplay and set the html to what has been selected by the user (r p or sciss)
 
-possibleChoices.forEach((possibleChoice) =>
+possibleChoice.forEach((possibleChoice) =>
   possibleChoice.addEventListener("click", (e) => {
     userChoice = e.target.id;
     userChoiceDisplay.innerHTML = userChoice;
