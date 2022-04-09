@@ -1,1 +1,1 @@
-# rps-js
+RPS in vanilla js
